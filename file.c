@@ -13,7 +13,6 @@ char* get_file_contents(const char* filepath)
 
     FILE* f = fopen(filepath, "rb");
 
-
     if (f)
     {
         fseek(f, 0, SEEK_END);
